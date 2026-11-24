@@ -60,4 +60,4 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ env.IMAGE_REGISTRY_URL }}/${{ 
+          images: ${{ env.IMAGE_REGISTRY_URL }}/${{ github.repository }}/${{ env.DOCKER_IMAGE_NAME }}
